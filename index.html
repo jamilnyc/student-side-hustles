@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Teen Side Hustles in NYC</title>
+<meta name="description" content="Low-cost informal jobs and gigs for high school students in New York City, with startup costs, pay estimates, rules and resources.">
+<meta name="theme-color" content="#0f766e">
+<meta property="og:title" content="Teen Side Hustles in NYC">
+<meta property="og:description" content="11 low-cost gigs for high schoolers in NYC: startup cost, pay, season, and the rules to know.">
+<meta property="og:type" content="website">
+<style>
+:root{
+  --bg:#f6f7f9;--card:#fff;--ink:#111827;--muted:#5b6472;--line:#e5e7eb;
+  --brand:#0f766e;--brand-ink:#fff;--accent:#f59e0b;--soft:#e6f4f2;--warn:#fff7e6;--warn-line:#f5d48a;
+  --shadow:0 1px 2px rgba(0,0,0,.05),0 4px 14px rgba(0,0,0,.05);
+}
+@media (prefers-color-scheme:dark){
+  :root{--bg:#0d1117;--card:#161b22;--ink:#e6edf3;--muted:#9aa4b2;--line:#2a313c;--brand:#2dd4bf;--brand-ink:#04211e;--soft:#12302d;--warn:#2a2310;--warn-line:#6b5a1e;--shadow:none}
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+a{color:var(--brand)}
+.wrap{max-width:760px;margin:0 auto;padding:0 16px 56px}
+header{background:linear-gradient(135deg,#0f766e,#115e59 60%,#134e4a);color:#fff;padding:36px 16px 56px}
+header .wrap{padding-bottom:0}
+header h1{margin:0 0 8px;font-size:clamp(1.7rem,6vw,2.4rem);line-height:1.15;letter-spacing:-.02em}
+header p{margin:0;opacity:.92;max-width:34em}
+.pill{display:inline-block;background:rgba(255,255,255,.16);border-radius:999px;padding:4px 12px;font-size:.8rem;margin-bottom:12px}
+.share{margin-top:16px;background:#fff;color:#0f766e;border:0;border-radius:999px;padding:10px 18px;font-weight:600;font-size:.95rem;cursor:pointer}
+.panel{background:var(--card);border:1px solid var(--line);border-radius:16px;box-shadow:var(--shadow);padding:16px;margin-top:-32px}
+.panel + .panel,.section{margin-top:16px}
+.row{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+input[type=search],select{width:100%;padding:12px 14px;border:1px solid var(--line);border-radius:12px;background:var(--bg);color:var(--ink);font:inherit}
+label.lbl{display:block;font-size:.8rem;color:var(--muted);margin:12px 0 6px;font-weight:600;text-transform:uppercase;letter-spacing:.04em}
+.chips{display:flex;gap:8px;flex-wrap:wrap}
+.chip{border:1px solid var(--line);background:var(--bg);color:var(--ink);border-radius:999px;padding:8px 14px;font:inherit;font-size:.9rem;cursor:pointer}
+.chip[aria-pressed=true]{background:var(--brand);color:var(--brand-ink);border-color:var(--brand);font-weight:600}
+input[type=range]{width:100%;accent-color:var(--brand)}
+.budget{display:flex;justify-content:space-between;align-items:baseline}
+.budget b{font-size:1.1rem}
+.count{color:var(--muted);font-size:.9rem;margin:18px 2px 8px}
+.grid{display:grid;gap:12px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;box-shadow:var(--shadow);overflow:hidden}
+.card button.head{all:unset;display:flex;gap:12px;align-items:flex-start;width:100%;padding:16px;box-sizing:border-box;cursor:pointer}
+.card button.head:focus-visible{outline:3px solid var(--brand);outline-offset:-3px}
+.emoji{font-size:1.7rem;line-height:1;background:var(--soft);border-radius:12px;width:48px;height:48px;display:grid;place-items:center;flex:none}
+.title{font-weight:700;font-size:1.05rem}
+.meta{display:flex;gap:6px;flex-wrap:wrap;margin-top:6px}
+.tag{font-size:.78rem;border-radius:999px;padding:3px 9px;background:var(--soft);color:var(--ink)}
+.tag.cost{background:var(--brand);color:var(--brand-ink);font-weight:600}
+.chev{margin-left:auto;color:var(--muted);transition:transform .2s;flex:none;align-self:center}
+.card.open .chev{transform:rotate(180deg)}
+.body{display:none;padding:0 16px 16px;border-top:1px solid var(--line)}
+.card.open .body{display:block}
+.body h4{margin:14px 0 4px;font-size:.78rem;text-transform:uppercase;letter-spacing:.05em;color:var(--muted)}
+.body p,.body ul{margin:0}
+.body ul{padding-left:18px}
+.body li{margin:3px 0}
+.links{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}
+.links a{font-size:.88rem;text-decoration:none;border:1px solid var(--brand);border-radius:999px;padding:6px 12px}
+.est{font-size:.8rem;color:var(--muted)}
+h2{font-size:1.3rem;margin:32px 0 8px;letter-spacing:-.01em}
+.section p.lead{margin:0 0 12px;color:var(--muted)}
+.note{background:var(--warn);border:1px solid var(--warn-line);border-radius:14px;padding:14px 16px}
+.note ul{margin:6px 0 0;padding-left:18px}
+.steps{counter-reset:s;list-style:none;padding:0;margin:0;display:grid;gap:10px}
+.steps li{counter-increment:s;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:12px 14px 12px 52px;position:relative}
+.steps li::before{content:counter(s);position:absolute;left:14px;top:12px;width:26px;height:26px;border-radius:50%;background:var(--brand);color:var(--brand-ink);display:grid;place-items:center;font-weight:700;font-size:.85rem}
+.calc{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.calc output{display:block;font-size:1.5rem;font-weight:800;color:var(--brand)}
+.calc small{color:var(--muted)}
+.resources{list-style:none;padding:0;margin:0;display:grid;gap:8px}
+.resources a{display:block;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 14px;text-decoration:none;color:var(--ink)}
+.resources a span{display:block;color:var(--muted);font-size:.85rem}
+.resources a b{color:var(--brand)}
+footer{margin-top:36px;color:var(--muted);font-size:.85rem}
+.empty{display:none;text-align:center;color:var(--muted);padding:32px 8px}
+@media (min-width:640px){.grid{grid-template-columns:1fr 1fr}.card.open{grid-column:1/-1}}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <span class="pill">Ages 14–17 · New York City</span>
+    <h1>Teen Side Hustles in NYC</h1>
+    <p>Low-cost gigs you can start this week. Filter by budget and season, tap a card for tips, and read the rules before you begin.</p>
+    <button class="share" id="share" type="button">Share this page</button>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="panel" aria-label="Filters">
+    <label class="lbl" for="q" style="margin-top:0">Search</label>
+    <input id="q" type="search" placeholder="Try “snow”, “tech”, “baby”…" autocomplete="off">
+
+    <label class="lbl">Season</label>
+    <div class="chips" id="seasons" role="group" aria-label="Season">
+      <button class="chip" data-s="all" aria-pressed="true">All</button>
+      <button class="chip" data-s="winter" aria-pressed="false">❄️ Winter</button>
+      <button class="chip" data-s="spring" aria-pressed="false">🌱 Spring</button>
+      <button class="chip" data-s="summer" aria-pressed="false">☀️ Summer</button>
+      <button class="chip" data-s="fall" aria-pressed="false">🍂 Fall</button>
+    </div>
+
+    <label class="lbl" for="budget">Max startup budget</label>
+    <div class="budget"><b id="budgetVal">$70</b><span class="est">$0 – $70</span></div>
+    <input id="budget" type="range" min="0" max="70" step="5" value="70">
+
+    <label class="lbl" for="sort">Sort by</label>
+    <select id="sort">
+      <option value="cost">Lowest startup cost</option>
+      <option value="name">A–Z</option>
+    </select>
+  </section>
+
+  <div class="count" id="count" aria-live="polite"></div>
+  <div class="grid" id="grid"></div>
+  <div class="empty" id="empty">No gigs match those filters. Try a bigger budget or “All” seasons.</div>
+
+  <section class="section">
+    <h2>Rules to know first</h2>
+    <div class="note">
+      <ul>
+        <li><b>Working papers:</b> New York requires employment certificates for most jobs under 18. Babysitting and casual yard work or household chores (age 14+) are exempt. Working for a business, even part-time, generally needs papers from your school.</li>
+        <li><b>No power equipment:</b> The chores exemption excludes power-driven machinery. Skip mowers, blowers and the like.</li>
+        <li><b>Not allowed under 18:</b> Exterior building cleaning (like window washing) is on the prohibited list. Never use ladders for customers.</li>
+        <li><b>No street-corner selling:</b> Selling goods or services on a public sidewalk needs a city general vendor license, which are capped with long waitlists. Work at a customer's home, building or with their permission instead.</li>
+        <li><b>Apps are 18+:</b> Most gig and marketplace apps require adults. A parent has to create the account.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Land your first customers</h2>
+    <ol class="steps">
+      <li><b>Start close to home.</b> Neighbors, relatives’ friends, your building’s group chat, your place of worship or school community.</li>
+      <li><b>Make a simple flyer.</b> First name, a parent’s phone number, 3 services, one line about you. Post in lobbies only with permission.</li>
+      <li><b>Do one job really well.</b> Show up on time, send a quick text when finished, and ask for one referral.</li>
+      <li><b>Raise prices gradually.</b> After a few happy repeat customers, add $2–5.</li>
+    </ol>
+  </section>
+
+  <section class="section">
+    <h2>Stay safe</h2>
+    <div class="note">
+      <ul>
+        <li>Tell a parent where you’ll be and when you’ll be done.</li>
+        <li>Don’t go into a stranger’s home alone. Meet in lobbies or work outside, or bring a friend.</li>
+        <li>Work in pairs for anything physical, and lift with your legs.</li>
+        <li>Get paid when the job is done and agree on the price first.</li>
+        <li>Cold-weather work strains the body. Take breaks while shoveling.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Quick earnings estimator</h2>
+    <p class="est" style="margin:0 0 12px">Move the sliders to see what a steady schedule could add up to.</p>
+    <div class="panel" style="margin-top:0">
+      <div class="budget"><span>Hourly rate</span><b id="rateVal">$15</b></div>
+      <input id="rate" type="range" min="8" max="40" step="1" value="15">
+      <div class="budget" style="margin-top:12px"><span>Hours per week</span><b id="hoursVal">5</b></div>
+      <input id="hours" type="range" min="1" max="15" step="1" value="5">
+      <div class="calc" style="margin-top:16px">
+        <div><small>Per week</small><output id="wk">$75</output></div>
+        <div><small>Per month</small><output id="mo">$325</output></div>
+      </div>
+      <p class="est" style="margin:12px 0 0">School hours are off limits, and NY limits weekly hours for minors. Check the rules link below.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Helpful resources</h2>
+    <ul class="resources">
+      <li><a href="https://dol.ny.gov/laws-governing-employment-minors-p882" target="_blank" rel="noopener"><b>NY Dept. of Labor: laws on employing minors</b><span>Hours, prohibited jobs, minimum wage, exemptions</span></a></li>
+      <li><a href="https://pws.nycenet.edu/get-involved/students/working-papers" target="_blank" rel="noopener"><b>How to get working papers (NYC schools)</b><span>Documents needed and where to apply</span></a></li>
+      <li><a href="https://brickunderground.com/live/snow-removal-rules-fines-sidewalks-nyc" target="_blank" rel="noopener"><b>NYC snow removal rules and fines</b><span>Timing rules that drive shoveling demand</span></a></li>
+      <li><a href="https://www.nannylane.com/cost/babysitters/ny/queens" target="_blank" rel="noopener"><b>Babysitter rates in Queens (Nanny Lane)</b><span>Benchmark pay; also see other boroughs</span></a></li>
+      <li><a href="https://nyc.gov/VendorEnforcement" target="_blank" rel="noopener"><b>NYC street vending rules</b><span>Why corner stands and car washes are risky</span></a></li>
+      <li><a href="https://portal.311.nyc.gov/" target="_blank" rel="noopener"><b>NYC 311</b><span>Ask the city about local rules</span></a></li>
+    </ul>
+  </section>
+
+  <footer>
+    <p><b>Disclaimer:</b> Pay figures marked “est.” are rough estimates, not guarantees. Only the babysitting averages come from published sources, and teens often earn a bit less than adult averages. This page is general information, not legal advice. Rules change, so confirm with your school or the NY Dept. of Labor.</p>
+    <p>Last updated November 2026.</p>
+  </footer>
+</main>
+
+<script>
+const GIGS=[
+{id:"snow",e:"❄️",name:"Snow shoveling",costMin:25,costMax:40,costTxt:"$25–40",pay:"est. $15–40 per stoop or sidewalk",season:["winter"],
+ why:"Property owners must clear sidewalks within hours of a storm and can be fined up to $250, so demand spikes right after snow.",
+ start:["Buy a sturdy shovel and a bag of ice melt.","Sign up 5–10 neighbors, shops and small buildings before the first storm.","Agree on a price per job in advance."],
+ watch:["Don’t push snow into streets, bike lanes or crosswalks.","Take breaks; shoveling is hard on the heart in the cold."],
+ links:[["NYC snow rules","https://brickunderground.com/live/snow-removal-rules-fines-sidewalks-nyc"]]},
+{id:"baby",e:"🍼",name:"Babysitting",costMin:0,costMax:0,costTxt:"$0",pay:"est. $15–20/hr",season:["all"],
+ why:"Exempt from working papers at 14+. NYC averages run about $19/hr in Queens and higher in Manhattan.",
+ start:["Take a CPR or first-aid course if you can.","Get the parents’ phone numbers and an emergency contact.","Start with families you know, then ask for referrals."],
+ watch:["Charge extra for more kids or late nights.","Know the house rules before parents leave."],
+ links:[["Babysitter rates","https://www.nannylane.com/cost/babysitters/ny/queens"]]},
+{id:"pet",e:"🪴",name:"Pet, plant & mail checks",costMin:0,costMax:0,costTxt:"$0",pay:"est. $10–25 per visit",season:["summer","winter"],
+ why:"Neighbors traveling over holidays and summer need someone to feed pets, water plants and bring in packages.",
+ start:["Offer to neighbors a week before school breaks.","Send a quick photo update after each visit.","Get a spare key only with a parent’s okay."],
+ watch:["Keep keys safe and labeled.","Don’t post customers’ travel dates online."],links:[]},
+{id:"tutor",e:"📚",name:"Tutoring younger kids",costMin:0,costMax:0,costTxt:"$0",pay:"est. $15–30/hr",season:["fall","winter","spring"],
+ why:"If you’re strong in a subject, parents will pay for homework help for elementary and middle schoolers.",
+ start:["Pick 1–2 subjects you’re really good at.","Meet in a library, lobby or the family’s common area.","Offer a short trial session."],
+ watch:["Keep sessions in shared spaces with a parent home.","Don’t promise grades, promise effort and consistency."],links:[]},
+{id:"tech",e:"📱",name:"Tech help for seniors",costMin:0,costMax:0,costTxt:"$0",pay:"est. $20–30/hr",season:["all"],
+ why:"Many older neighbors need help with phone setup, video calls, photos and spotting scams.",
+ start:["Offer through your building, house of worship or senior center.","Write down simple step-by-step notes for each customer.","Teach scam red flags: unknown links, urgent “bank” calls."],
+ watch:["Never ask for or write down passwords or banking details.","Have a parent know where you’ll be."],links:[]},
+{id:"assemble",e:"🪛",name:"Furniture assembly",costMin:30,costMax:50,costTxt:"$30–50",pay:"est. $25–50 per item",season:["all"],
+ why:"Move-ins in summer and fall mean lots of flat-pack furniture and few people who want to build it.",
+ start:["Buy a good screwdriver set, Allen keys and a basic drill.","Practice on your own furniture first and time yourself.","Quote per item, not by the hour."],
+ watch:["Don’t anchor heavy items to walls without proper supplies and know-how.","Skip jobs needing ladders."],links:[]},
+{id:"chores",e:"🧹",name:"Stoop, hallway & bin chores",costMin:0,costMax:25,costTxt:"$0–25",pay:"est. $15–25/hr or flat weekly fee",season:["all","fall"],
+ why:"Small-building owners and brownstones often need sweeping, bin duty and leaf raking but don’t want a full contractor.",
+ start:["Offer a weekly flat fee for a building’s stoop and bins.","Buy a broom and rake if you don’t have them.","Ask the owner for a text to confirm each job."],
+ watch:["Hand tools only, no power equipment.","Don’t work on roofs or exterior upper floors."],links:[]},
+{id:"move",e:"📦",name:"Moving & hauling help",costMin:0,costMax:0,costTxt:"$0",pay:"est. $15–25/hr",season:["summer","fall"],
+ why:"Neighbors moving within the building or a few blocks often just need an extra pair of hands. Apps like Lugg require 18+, so this is word-of-mouth only.",
+ start:["Offer to help with boxes, light furniture and carrying.","Bring a friend and gloves.","Agree on hours and price before starting."],
+ watch:["No heavy appliances and no stair-heavy carries alone.","Work for a company means working papers and age limits."],
+ links:[["Why apps need 18+","https://lugg.com/mover/jobs/helper-in-queens-ny"]]},
+{id:"flyer",e:"📄",name:"Flyering for local shops",costMin:0,costMax:20,costTxt:"$0–20",pay:"est. $10–15/hr",season:["all"],
+ why:"Local restaurants, tutors and salons will pay for someone to get the word out in the neighborhood.",
+ start:["Ask shop owners if they want help promoting a special.","Agree on a flat fee or a per-hour rate.","Deliver flyers to lobbies with permission or hand them out."],
+ watch:["Don’t put flyers on cars, lampposts or poles, which can bring fines.","Working for a business may require working papers."],links:[]},
+{id:"car",e:"🚗",name:"Car washing at the customer’s home",costMin:40,costMax:60,costTxt:"$40–60",pay:"est. $20–40 per car",season:["spring","summer","fall"],
+ why:"Customers who park at a driveway or building garage will pay for convenience.",
+ start:["Buy buckets, microfiber towels, car soap and a brush.","Use the owner’s water and permission only.","Offer packages: exterior, or exterior + interior vacuum."],
+ watch:["Don’t wash on public corners. That counts as unlicensed vending.","Keep soap runoff out of storm drains where you can."],
+ links:[["NYC vending rules","https://nyc.gov/VendorEnforcement"]]},
+{id:"flip",e:"🏷️",name:"Thrift flipping",costMin:20,costMax:70,costTxt:"$20–70",pay:"est. $5–30 profit per item",season:["all"],
+ why:"Buy underpriced items at thrift stores or stoop sales and resell them for more.",
+ start:["Start with a category you know, like sneakers, books or games.","Check recent sold prices before buying.","Take clear photos in good light."],
+ watch:["Most marketplace apps require 18+, so a parent has to list items.","Meet buyers in public, with a parent."],links:[]}
+];
+
+const $=s=>document.querySelector(s);
+const grid=$("#grid"),empty=$("#empty"),count=$("#count");
+let season="all";
+
+function card(g){
+  const li=document.createElement("article");li.className="card";li.id=g.id;
+  const seasons=g.season.includes("all")?"Year-round":g.season.map(s=>s[0].toUpperCase()+s.slice(1)).join(", ");
+  li.innerHTML=`
+  <button class="head" aria-expanded="false" aria-controls="b-${g.id}">
+    <span class="emoji" aria-hidden="true">${g.e}</span>
+    <span style="flex:1;min-width:0">
+      <span class="title">${g.name}</span>
+      <span class="meta"><span class="tag cost">${g.costTxt}</span><span class="tag">${g.pay}</span><span class="tag">${seasons}</span></span>
+    </span>
+    <svg class="chev" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+  </button>
+  <div class="body" id="b-${g.id}">
+    <h4>Why it works</h4><p>${g.why}</p>
+    <h4>How to start</h4><ul>${g.start.map(x=>`<li>${x}</li>`).join("")}</ul>
+    <h4>Watch out for</h4><ul>${g.watch.map(x=>`<li>${x}</li>`).join("")}</ul>
+    ${g.links.length?`<div class="links">${g.links.map(l=>`<a href="${l[1]}" target="_blank" rel="noopener">${l[0]} ↗</a>`).join("")}</div>`:""}
+    <p class="est" style="margin-top:10px">Pay marked “est.” is a rough estimate.</p>
+  </div>`;
+  const btn=li.querySelector(".head");
+  btn.addEventListener("click",()=>{
+    const open=li.classList.toggle("open");
+    btn.setAttribute("aria-expanded",open);
+    if(open) history.replaceState(null,"","#"+g.id);
+  });
+  return li;
+}
+const cards=GIGS.map(card);
+
+function render(){
+  const q=$("#q").value.trim().toLowerCase();
+  const max=+$("#budget").value;
+  const sort=$("#sort").value;
+  let list=GIGS.filter(g=>{
+    const okS=season==="all"||g.season.includes("all")||g.season.includes(season);
+    const okB=g.costMin<=max;
+    const okQ=!q||(g.name+" "+g.why+" "+g.start.join(" ")).toLowerCase().includes(q);
+    return okS&&okB&&okQ;
+  });
+  list.sort((a,b)=>sort==="name"?a.name.localeCompare(b.name):(a.costMax-b.costMax)||a.name.localeCompare(b.name));
+  grid.replaceChildren(...list.map(g=>cards[GIGS.indexOf(g)]));
+  count.textContent=list.length+" of "+GIGS.length+" gigs";
+  empty.style.display=list.length?"none":"block";
+}
+
+document.querySelectorAll("#seasons .chip").forEach(c=>c.addEventListener("click",()=>{
+  season=c.dataset.s;
+  document.querySelectorAll("#seasons .chip").forEach(x=>x.setAttribute("aria-pressed",x===c));
+  render();
+}));
+$("#q").addEventListener("input",render);
+$("#sort").addEventListener("change",render);
+$("#budget").addEventListener("input",e=>{$("#budgetVal").textContent="$"+e.target.value;render();});
+
+function calc(){
+  const r=+$("#rate").value,h=+$("#hours").value;
+  $("#rateVal").textContent="$"+r;$("#hoursVal").textContent=h;
+  $("#wk").textContent="$"+(r*h).toLocaleString();
+  $("#mo").textContent="$"+Math.round(r*h*4.33).toLocaleString();
+}
+$("#rate").addEventListener("input",calc);$("#hours").addEventListener("input",calc);
+
+$("#share").addEventListener("click",async()=>{
+  const data={title:document.title,text:"Low-cost gigs for NYC high schoolers",url:location.href.split("#")[0]};
+  try{
+    if(navigator.share){await navigator.share(data);}
+    else{await navigator.clipboard.writeText(data.url);$("#share").textContent="Link copied ✓";setTimeout(()=>$("#share").textContent="Share this page",2000);}
+  }catch(e){}
+});
+
+render();calc();
+const h=location.hash.slice(1);
+if(h){const el=document.getElementById(h);if(el&&el.classList){el.classList.add("open");el.querySelector(".head").setAttribute("aria-expanded","true");el.scrollIntoView();}}
+</script>
+</body>
+</html>
